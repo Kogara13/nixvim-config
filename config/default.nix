@@ -1,6 +1,6 @@
 {
   imports = [
-    ./alpha.nix
+    #./alpha.nix
     ./bufferline.nix
     ./cmp.nix
     #./copilot-chat.nix
@@ -205,6 +205,32 @@
       key = "<leader>dt";
       action = "<CMD>Trouble diagnostics toggle<CR>";
       options.desc = "Toggle trouble";
+    }
+
+    # Tmux 
+    {
+	mode = "n";
+	key = "<C-h>";
+	action = "<CMD>TmuxNavigationLeft<CR>";
+	option.desc = "Tmux move to left pane";
+    }
+    {
+	mode = "n";
+	key = "<C-l>";
+	action = "<CMD>TmuxNavigationRight<CR>";
+	option.desc = "Tmux move to right pane";
+    }
+    {
+	mode = "n";
+	key = "<C-j>";
+	action = "<CMD>TmuxNavigationDown<CR>";
+	option.desc = "Tmux move to lower pane";
+    }
+    {
+	mode = "n";
+	key = "<C-k>";
+	action = "<CMD>TmuxNavigationUp<CR>";
+	option.desc = "Tmux move to upper pane";
     }
   ];
 }
