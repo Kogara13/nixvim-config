@@ -17,6 +17,11 @@
           package = pkgs.swiProlog;
         };
         ruff_lsp.enable = true;
+        rust-analyzer = {
+            enable = true;
+            installCargo = true;
+            installRustc = true;
+        };
       };
       keymaps.lspBuf = {
         "gd" = "definition";
