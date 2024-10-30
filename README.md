@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="/images/logo.png" width="200" />
-</p>
-
 <h1 align="center">NixVim Configuration</h1>
 Because who doesn't like a declarative configuration of Neovim?
 
