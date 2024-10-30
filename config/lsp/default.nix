@@ -31,6 +31,6 @@
         "K" = "hover";
       };
     };
-    rustaceanvim.enable = true;
+        #rustaceanvim.enable = true;
   };
 }
