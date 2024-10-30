@@ -1,17 +1,20 @@
 {
   imports = [
+    ./alpha.nix
     ./bufferline.nix
     ./cmp.nix
-    ./copilot-chat.nix
+    #./copilot-chat.nix
+    ./emmet.nix
     ./git.nix
-    ./lightline.nix
+    ./lualine.nix
     ./lsp/default.nix
     ./lsp/fidget.nix
-    ./lsp/ionide.nix
+    #./lsp/ionide.nix
     ./lsp/none-ls.nix
     ./lsp/trouble.nix
     ./nvim-tree.nix
     ./options.nix
+    ./tmux-navigator.nix
     ./treesitter.nix
     ./utils/auto-pairs.nix
     ./utils/autosave.nix
@@ -19,6 +22,7 @@
     ./utils/lazygit.nix
     ./utils/telescope.nix
     ./utils/toggleterm.nix
+    ./utils/webdevicons.nix
     ./utils/which-key.nix
     ./utils/wilder.nix
   ];

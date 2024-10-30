@@ -13,7 +13,8 @@
     autoindent = true;
     clipboard = "unnamedplus";
     expandtab = true;
-    shiftwidth = 2;
+    shiftwidth = 4;
+    textwidth = 120;
     smartindent = true;
     tabstop = 2;
 
