@@ -46,9 +46,8 @@ Descriptions of all the config files/plugins used in this configuration.
 | default.nix | Default configuration file for nixvim. |
 | fidget.nix | Show LSP notifications in the bottom corner. |
 | git.nix | Gitsigns shows git decorations in Lua, including signs for added, removed, and changed lines. |
-| ionide.nix | IDE-like features for F# programming. |
-| lightline.nix | Lightweight status line. |
 | lsp.nix | Language Server Protocol support. |
+| lualine.nix | Lualine status line. |
 | none-ls.nix | Additional language server configurations. |
 | nvim-tree.nix | File explorer tree. |
 | options.nix | Additional options and settings for nixvim. |
@@ -57,6 +56,7 @@ Descriptions of all the config files/plugins used in this configuration.
 | treesitter.nix | Syntax highlighting and indentation based on Tree-sitter. |
 | trouble.nix | Provides a pretty list for showing diagnostics, references, telescope results, quickfix and location lists | 
 | which_key.nix | Popup display of keybindings. |
+| wilder.nix | Display command mode suggestions. |
 
 ## Contributing
 
