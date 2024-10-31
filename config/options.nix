@@ -10,7 +10,7 @@
     splitright = true;
     scrolloff = 4;
 
-    autoindent = false;
+    autoindent = true;
     clipboard = "unnamedplus";
     expandtab = true;
     shiftwidth = 4;
