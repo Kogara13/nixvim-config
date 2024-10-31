@@ -1,5 +1,4 @@
 <h1 align="center">NixVim Configuration</h1>
-Because who doesn't like a declarative configuration of Neovim?
 
 ![Screenshot of configuration](/images/NixVim.png)
 
