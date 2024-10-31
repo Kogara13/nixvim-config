@@ -1,20 +1,21 @@
 <h1 align="center">NixVim Configuration</h1>
 Because who doesn't like a declarative configuration of Neovim?
 
-![Screenshot of configuration](/images/demo.png)
-<details>
-<summary>More Screenshots</summary>
-
-![Screenshot of configuration](/images/copilot.png)
-![Screenshot of configuration](/images/trouble.png)
-</details>
+![Screenshot of configuration](/images/NixVim.png)
 
 ## How to run
 
 To run the configuration, you can type the following:
 
+Original repository:
+
 ```bash
 nix run github:mikaelfangel/nixvim-config
+```
+Current forked repository:
+
+```bash
+nix run github:kogara13/nixvim-config
 ```
 
 ## How to include as package
@@ -25,6 +26,18 @@ inputs.nixvim.url = "github:mikaelfangel/nixvim-config"
 ```
 
 Then you can input this in your configuration.nix (be sure that you inherit inputs from your flake)
+```
+  environment = {
+    systemPackages = with pkgs; [
+      inputs.nixvim.packages.${system}.default
+    ];
+  };
+```
+Or, if using this fork
+```
+inputs.nixvim.url = "github:kogara13/nixvim-config"
+```
+
 ```
   environment = {
     systemPackages = with pkgs; [
