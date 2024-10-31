@@ -10,6 +10,16 @@
         };
       };
     };
+    settings.defaults = {
+        file_ignore_pattern = [
+            "^.git/"
+            "^.mypy_cache/"
+            "^__pychache__/"
+            "^output/"
+            "^data/"
+            "%.ipynb"
+        ];
+    };
     extensions.fzf-native = { enable = true; };
   };
 }

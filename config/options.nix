@@ -15,7 +15,7 @@
     expandtab = true;
     shiftwidth = 4;
     textwidth = 120;
-    smartindent = true;
+    smartindent = false;
     tabstop = 2;
 
     ignorecase = true;
