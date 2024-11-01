@@ -35,7 +35,7 @@
         sqls.enable = true;
         svelte.enable = true;
         tailwindcss.enable = true;
-        tsserver.enable = true;
+        ts-ls.enable = true;
       };
       keymaps.lspBuf = {
         "gd" = "definition";
