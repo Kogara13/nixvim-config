@@ -15,7 +15,7 @@
         html.enable = true;
         htmx.enable = true;
         kotlin_language_server.enable = true;
-        lua-ls = {
+        lua_ls = {
             enable = true;
             settings.telemetry.enable = false;
         };
@@ -25,9 +25,9 @@
           package = pkgs.swiProlog;
         };
         pylyzer.enable = true;
-        ruby-lsp.enable = true;
+        ruby_lsp.enable = true;
         ruff_lsp.enable = true;
-        rust-analyzer = {
+        rust_analyzer = {
             enable = true;
             installCargo = true;
             installRustc = true;
@@ -35,7 +35,7 @@
         sqls.enable = true;
         svelte.enable = true;
         tailwindcss.enable = true;
-        ts-ls.enable = true;
+        ts_ls.enable = true;
       };
       keymaps.lspBuf = {
         "gd" = "definition";
