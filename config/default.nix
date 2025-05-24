@@ -26,7 +26,8 @@
     ./utils/wilder.nix
   ];
 
-  colorschemes.dracula.enable = true;
+  #colorschemes.dracula.enable = true;
+  colorschemes.gruvbox.enable = true;
   plugins.web-devicons.enable = true;
 
   diagnostics = { virtual_lines.only_current_line = true; };
