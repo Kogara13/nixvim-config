@@ -25,8 +25,8 @@
           package = pkgs.swiProlog;
         };
         pylyzer.enable = true;
-        ruby_lsp.enable = true;
-        ruff.enable = true;
+        #ruby_lsp.enable = true;
+        #ruff.enable = true;
         rust_analyzer = {
             enable = true;
             installCargo = true;
