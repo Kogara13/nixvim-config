@@ -2,6 +2,7 @@
 {
   plugins = {
     luasnip.enable = true;
+    /*
     copilot-lua = {
       enable = true;
       suggestion.enabled = false;
@@ -19,6 +20,7 @@
         "." = false;
       };
     };
+    */
 
     cmp-buffer = { enable = true; };
 
@@ -49,7 +51,7 @@
           }
           { name = "nvim_lua"; }
           { name = "path"; }
-          { name = "copilot"; }
+          #{ name = "copilot"; }
         ];
 
         formatting = {
